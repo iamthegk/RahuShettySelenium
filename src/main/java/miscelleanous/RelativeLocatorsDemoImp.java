@@ -19,7 +19,8 @@ public class RelativeLocatorsDemoImp {
 		WebElement editBox = driver.findElement(By.cssSelector("[name='name']"));
 		System.out.println(driver.findElement(with(By.tagName("label")).above(editBox)).getText());
 		driver.findElement(with(By.tagName("input"))).click();
-
+		WebElement icecream=driver.findElement(By.xpath("//label[text()='Check me out if you Love IceCreams!']"));
+		driver.findElement(with(By.tagName("input")).toLeftOf(icecream)).click();
 	}
 
 }
