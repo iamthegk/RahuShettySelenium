@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-20T11:24:25 IST" name="Default suite" finished-at="2024-06-20T11:24:25 IST" duration-ms="416">
+    <groups>
+    </groups>
+    <test started-at="2024-06-20T11:24:25 IST" name="Default test" finished-at="2024-06-20T11:24:25 IST" duration-ms="416">
+      <class name="thisSuper.PS1">
+        <test-method signature="doThis()[pri:0, instance:thisSuper.PS1@1b7cc17c]" started-at="2024-06-20T11:24:25 IST" name="doThis" finished-at="2024-06-20T11:24:25 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doThis -->
+        <test-method signature="demo()[pri:0, instance:thisSuper.PS1@1b7cc17c]" started-at="2024-06-20T11:24:25 IST" name="demo" finished-at="2024-06-20T11:24:25 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- thisSuper.PS1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
